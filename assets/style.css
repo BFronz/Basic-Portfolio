@@ -7,9 +7,15 @@ body {
     color: #333;
     height: 100%;
     background:lightgrey;
-    /* background-image: url('images/blue-snow.png'); */
+    background-image: url('images/blue-snow.png');
+    /* background-image: image("images/paper.png"); */
  }
 
+
+ #wrapper {
+    position: relative;
+    min-height: 100vh; 
+} 
  
 
  /* header & navagation */
@@ -24,8 +30,7 @@ header {
 
 }
 
-#header-info {
-    
+#header-info { 
     width: 960px;
     margin: auto;
     position: relative;
@@ -75,7 +80,7 @@ header {
 
 }
 
-/* bio */
+/* bio page */
 
 #bio {
     background-color: white;
@@ -103,27 +108,9 @@ img {
 
 }
 
-#wrapper {
-    position: relative;
-    min-height: 100vh;
-    
-}
-
-
-.clearfix:after { 
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
-    clear: both;
- }
-
-
  p{
     color:  grey;  
     line-height: 1.5em;     
-
-
  }
 
 
@@ -148,30 +135,9 @@ footer {
 }
 
 
-a:link {
-    color: grey;
-  }
-  
-  a:visited {
-    color: grey;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: red;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+/* contact page */
 
-
- label {
-    color:grey;
- } 
-
- .button {
+.button {
     background-color: #4aaaa5;
     border: none;
     color: white;
@@ -184,6 +150,8 @@ a:link {
     cursor: pointer;
   }
 
+
+/* portfilio */
 
   #portfilio-info {
   width: 500px;
@@ -227,7 +195,7 @@ a:link {
 }
 
 
-
+/* extra */
 
 .a1 {
     padding: 10px;
@@ -243,4 +211,31 @@ a:link {
     margin-top: 100px;
    
 }
+
+a:link {
+    color: grey;
+  }
+  
+  a:visited {
+    color: grey;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: blue;
+  }
+
+
+ label {
+    color:grey;
+ } 
+
+ .clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
 
